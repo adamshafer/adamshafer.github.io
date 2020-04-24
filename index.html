@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Pro Athlete Dashboard</title>
+        <link rel="stylesheet" href="styles/styles-dist.css">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Material+Icons&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="background"></div>
+        <header>
+            <div class="logo">
+                <img src="/images/pa-logo.png" alt="" />
+                <div>Athlete<span>Dashboard</span></div>
+            </div>
+            <div class="countdown"><span>124</span>days remaining<br />in quarter</div>
+            <a class="nav-toggle"><i></i><i></i><i></i></a>
+        </header>
+        <nav>
+            <a data-target="home"><i class="material-icons">home</i>Home</a>
+            <a data-target="impact"><i class="material-icons">accessibility_new</i>ImPAct</a>
+            <a data-target="pa-university"><i class="material-icons">account_balance</i>PA University</a>
+            <a data-target="charity"><i class="material-icons">attach_money</i>Charity</a>
+            <a data-target="volunteering"><i class="material-icons">emoji_people</i>Volunteering</a>
+            <div class="something-useful">Mr. Gilliland says that <a href="https://www.youtube.com/watch?v=m2s0nB2VPvs">something useful</a> should go&nbsp;here.</div>
+        </nav>
+        <main>
+            <section id="home">
+                <div class="user-info">
+                    <div class="user-photo"><img src="/images/user-photo.jpg" alt="" /></div>
+                    <div class="user-name">Adam Shafer<span>Senior Front End Developer</span></div>
+                </div>
+                <div class="tiles">
+                    <div class="impact">
+                        <h2>imPAct Points</h2>
+                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="circle-chart__background" stroke="rgba(255,255,255,0.5)" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                            <circle class="circle-chart__circle" stroke="#0fa" stroke-width="2" stroke-dasharray="64,100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                            <g class="circle-chart__info">
+                                <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle">128</text>
+                                <text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle">Boomshakalaka!</text>
+                            </g>
+                          </svg>
+                        <a href="#" class="button primary">Add Points</a>
+                    </div>
+                    <div class="player-development">
+                        <h2>Player Development</h2>
+                        <div class="labeled-money">
+                            <div>Earned<span><sup>$</sup>1,000</span></div>
+                            <div>Used<span><sup>$</sup>1,000</span></div>
+                            <div>Remaining<span><sup>$</sup>1,000</span></div>
+                        </div>
+                        <div class="electives">
+                            <a href="#" class="button secondary">Elective 1</a>
+                            <a href="#" class="button secondary">Elective 2</a>
+                            <a href="#" class="button secondary">Elective 3</a>
+                        </div>
+                        <a href="#" class="button primary">Complete Objectives</a>
+                    </div>
+                    <div class="charity">
+                        <h2>Charity</h2>
+                        <div class="labeled-money larger">
+                            <div>Donated<span><sup>$</sup>1,000</span></div>
+                            <div>Remaining<span><sup>$</sup>500</span></div>
+                        </div>
+                        <a href="#" class="button primary">Donate Now</a>
+                    </div>
+                    <div class="volunteer-hours">
+                        <h2>Volunteer Hours</h2>
+                        <div class="hours">24</div>
+                        <a href="#" class="button primary">Log Hours</a>
+                    </div>
+                </div>
+            </section>
+            <section id="impact" class="iframe">
+                <iframe src="https://script.google.com/a/macros/beapro.com/s/AKfycbxlZF3hLcEEv9LjS4bqOE0FsezUED4Ju3Mce9Q9L_b3YYCRsW8a/exec"></iframe>
+            </section>
+            <section id="pa-university" class="iframe">
+                <iframe src="https://sites.google.com/beapro.com/proathleteuniversity/home"></iframe>
+            </section>
+            <section id="charity" class="iframe">
+                <iframe src="https://www.weather.gov"></iframe>
+            </section>
+            <section id="volunteering" class="iframe">
+                <iframe src="https://www.weather.gov"></iframe>
+            </section>
+        </main>
+        <footer>
+            &copy; Copyright 2020 Pro Athlete, Inc.<br />
+            All rights reserved, bro.
+        </footer>
+        <script src="scripts/scripts-dist.js"></script>
+    </body>
+</html>
