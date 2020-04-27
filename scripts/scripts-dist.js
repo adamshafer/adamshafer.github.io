@@ -1,1 +1,0 @@
-"use strict";for(const e of document.querySelectorAll("body > nav a"))e.addEventListener("click",(function(){for(const e of document.querySelectorAll("main > section"))e.style.display="none";document.getElementById(this.dataset.target).style.display="block"}));document.querySelector(".nav-toggle").addEventListener("click",(function(){document.body.classList.toggle("nav-open")}));
