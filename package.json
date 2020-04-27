@@ -1,5 +1,6 @@
 {
   "name": "athlete-dashboard",
+  "homepage": "https://adamshafer.github.io/build/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
