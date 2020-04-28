@@ -29,7 +29,7 @@ function App() {
 
     return (
         <div id="app" data-navopen={navOpen}>
-            <div id="background"></div>
+            <div class="background"></div>
             <Header setNavToggle={setNavToggle} />
             <Nav />
             <Main />

@@ -10,7 +10,7 @@ function Header(props) {
                 <span>Athlete<span>Dashboard</span></span>
             </a>
             <div className="countdown"><span>124</span>days remaining<br />in quarter</div>
-            <div id="nav-toggle" onClick={props.setNavToggle}><i></i><i></i><i></i></div>
+            <div className="nav-toggle" onClick={props.setNavToggle}><i></i><i></i><i></i></div>
         </header>
     )
 }
