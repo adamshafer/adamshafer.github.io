@@ -1,0 +1,9 @@
+footer {
+    text-align: center;
+    position: relative;
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    @media(min-width: 768px) {
+        margin-left: 200px;
+    }
+}
