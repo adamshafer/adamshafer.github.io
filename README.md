@@ -1,3 +1,19 @@
+## Things I'm Using Here / Learning Here
+
+.js Stuff
+[React](https://reactjs.org/)
+[create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+[React App Organization](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
+
+.css stuff
+[Sass](https://sass-lang.com/)
+[Block Element Modifier CSS Methodology](http://getbem.com/)
+
+deployment stuff
+[gh-pages (deploys create-react-app to github pages)](https://github.com/gitname/react-gh-pages)
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

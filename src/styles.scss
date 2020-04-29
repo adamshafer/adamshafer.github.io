@@ -1,7 +1,7 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
-html, body, #root, #app {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
@@ -42,20 +42,22 @@ a {
         box-shadow: 2px 2px 5px rgba(#000, 0.5);
         transform: rotate(1deg);
     }
-    &.primary {
+    &--primary {
         background-color: #0fa;
         color: #000;
         text-shadow: none;
         &:hover {
-            background-color: lighten(#0fa, 20);;
+            background-color: lighten(#0fa, 20);
+            color: #000;
         }
     }
-    &.secondary {
+    &--secondary {
         border: 2px solid #fff;
         background-color: rgba(#000, 0.2);
         color: #fff;
         &:hover {
             background-color: rgba(#000, 0.3);
+            color: #fff;
         }
     }
 }
