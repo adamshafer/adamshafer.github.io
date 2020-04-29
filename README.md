@@ -1,13 +1,13 @@
 ## Things I'm Using Here / Learning Here
 
 .js Stuff
-[React](https://reactjs.org/)
-[create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
-[React App Organization](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
+[React](https://reactjs.org/)<br />
+[create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)<br />
+[React App Organization](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)<br />
 
 .css stuff
-[Sass](https://sass-lang.com/)
-[Block Element Modifier CSS Methodology](http://getbem.com/)
+[Sass](https://sass-lang.com/)<br />
+[Block Element Modifier CSS Methodology](http://getbem.com/)<br />
 
 deployment stuff
 [gh-pages (deploys create-react-app to github pages)](https://github.com/gitname/react-gh-pages)
