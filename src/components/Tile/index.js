@@ -8,7 +8,7 @@ function Tile(props) {
 
     // is this weird? 
     // since there are four tiles on Main, am i going to be loading data four times? should each tile be its own component?
-    const [data, setData] = useState({
+    const [data/*, setData*/] = useState({
         impact: {
             pointsEarned: 128,
             message: "Nice work, bro."
