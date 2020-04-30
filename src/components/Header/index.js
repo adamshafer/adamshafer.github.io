@@ -5,7 +5,7 @@ import "./styles.scss"
 function Header(props) {
     return (
         <header className="header">
-            <a className="header__logo" href="/">
+            <a className="header__logo" href="/#">
                 <img className="header__image" src="/images/pa-logo.png" alt="" />
                 <span className="header__title">Athlete<span className="header__subtitle">Dashboard</span></span>
             </a>

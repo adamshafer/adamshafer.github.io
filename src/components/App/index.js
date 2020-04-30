@@ -20,7 +20,7 @@ function App() {
     })
 
     const handleOutsideClose = (event) => {
-        if (!event.target.matches(".header__nav-toggle") && !document.querySelector(".nav-main").contains(event.target)) setNavOpen(false)
+        if (!event.target.matches(".header__nav-toggle") && !document.querySelector(".nav").contains(event.target)) setNavOpen(false)
     }
 
     const setNavToggle = () => {
@@ -28,13 +28,13 @@ function App() {
     }
 
     return (
-        <div className="app">
+        <>
             <div className="background"></div>
             <Header daysRemaining={128} navOpen={navOpen} setNavToggle={setNavToggle} />
             <Nav navOpen={navOpen} />
             <Main />
             <Footer />
-        </div>
+        </>
     )
 
 }
