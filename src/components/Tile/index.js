@@ -73,7 +73,7 @@ function Tile(props) {
         <div className="tile">
             <h2 className="tile__heading">{props.heading}</h2>
             {renderTileData(props.type)}
-            <Button className="button--primary" link={props.buttonLink} text={props.buttonText} />
+            <Button className="button--primary tile__main-button" link={props.buttonLink} text={props.buttonText} />
         </div>
     )
 
